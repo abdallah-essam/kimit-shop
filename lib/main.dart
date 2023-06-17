@@ -13,8 +13,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Kimit Shop',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(useMaterial3: true),
-      onGenerateRoute: Routes.onGenerateRoutes,
+      theme: ThemeData(
+          elevatedButtonTheme: ElevatedButtonThemeData(
+              style: ElevatedButton.styleFrom(
+                  backgroundColor: const Color(0xff219EBC)))),
+
+      onGenerateRoute: MyRoutes.onGenerateRoutes,
     );
   }
 }
