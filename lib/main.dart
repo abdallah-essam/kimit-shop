@@ -1,4 +1,4 @@
-import 'package:ecommerce/shared/routes/routes.dart';
+import 'package:ecommerce/shared/routes/my_routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import '../../../../shared/constants/images/my_images.dart';
 import '../../../../shared/constants/strings/my_strings.dart';
-import '../../../../shared/routes/routes.dart';
+import '../../../../shared/routes/my_routes.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});

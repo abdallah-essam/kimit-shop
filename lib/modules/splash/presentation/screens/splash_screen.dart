@@ -1,6 +1,6 @@
 import 'package:ecommerce/shared/constants/colors/my_colors.dart';
 import 'package:ecommerce/shared/constants/images/my_images.dart';
-import 'package:ecommerce/shared/routes/routes.dart';
+import 'package:ecommerce/shared/routes/my_routes.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
