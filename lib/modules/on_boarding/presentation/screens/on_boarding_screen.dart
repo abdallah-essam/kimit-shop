@@ -1,5 +1,6 @@
 import 'package:ecommerce/modules/on_boarding/presentation/controller/onboarding_cubit.dart';
 import 'package:ecommerce/modules/on_boarding/presentation/controller/onboarding_status.dart';
+import 'package:ecommerce/shared/constants/colors/my_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -46,7 +47,7 @@ class OnBoardingScreen extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: const TextStyle(
                             fontSize: 18,
-                            color: Color(0xff023047),
+                            color: MyColors.textColor,
                             fontWeight: FontWeight.w500),
                       ),
                       const SizedBox(height: 29),
@@ -88,7 +89,7 @@ class OnBoardingScreen extends StatelessWidget {
                   const SizedBox(height: 24),
                   ElevatedButton(
                       onPressed: () {
-                        controller.page! < 2
+                        controller.page! < 1.5
                             ? controller.nextPage(
                                 duration: const Duration(milliseconds: 400),
                                 curve: Curves.linearToEaseOut)
