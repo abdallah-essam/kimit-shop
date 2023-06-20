@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
           elevatedButtonTheme: ElevatedButtonThemeData(
               style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xff219EBC)))),
-
       onGenerateRoute: MyRoutes.onGenerateRoutes,
     );
   }

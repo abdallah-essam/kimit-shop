@@ -67,7 +67,8 @@ class LoginScreen extends StatelessWidget {
                         const Spacer(),
                         TextButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, MyRoutes.forgetPassword);
+                            Navigator.pushNamed(
+                                context, MyRoutes.forgetPassword);
                           },
                           child: const Text(
                             'Forget password?',
@@ -84,7 +85,10 @@ class LoginScreen extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(16),
                       child: ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.pushNamedAndRemoveUntil(
+                                context, MyRoutes.homepage, (route) => false);
+                          },
                           style: ElevatedButton.styleFrom(
                               elevation: 0,
                               minimumSize: const Size(double.infinity, 48),
