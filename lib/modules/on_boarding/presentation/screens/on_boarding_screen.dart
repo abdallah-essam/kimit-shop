@@ -31,7 +31,6 @@ class OnBoardingScreen extends StatelessWidget {
                   controller.addListener(() {
                     context.read<OnboardingCubit>().checkLast(controller.page!);
                   });
-
                   return Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     mainAxisSize: MainAxisSize.max,

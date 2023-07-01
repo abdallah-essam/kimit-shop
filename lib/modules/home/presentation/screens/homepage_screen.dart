@@ -1,6 +1,7 @@
 import 'package:ecommerce/modules/home/presentation/widgets/my_choose_location_widget.dart';
 import 'package:ecommerce/modules/home/presentation/widgets/my_notification_widget.dart';
 import 'package:ecommerce/modules/home/presentation/widgets/my_search_widget.dart';
+import 'package:ecommerce/modules/home/presentation/widgets/my_slider_ads.dart';
 import 'package:flutter/material.dart';
 
 class HomePageScreen extends StatelessWidget {
@@ -26,6 +27,9 @@ class HomePageScreen extends StatelessWidget {
             MyChooseLocationWidget(location: " Makram Nasr City - Cairo   "),
             Spacer()
           ]),
+          SizedBox(height: 16),
+          MySliderAdsWidget()
+
 
         ],
       ),
